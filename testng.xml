@@ -1,0 +1,55 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite name="AutomationSuite" parallel="tests" thread-count="3">
+
+    <!-- ================= LISTENERS ================= -->
+    <listeners>
+        <listener class-name="com.shraddha.automation.listeners.TestListener"/>
+    </listeners>
+
+    <!-- ================= SMOKE - CHROME =================
+    <test name="Smoke_Chrome">
+        <parameter name="browser" value="chrome"/>
+
+        <groups>
+            <run>
+                <include name="smoke"/>
+            </run>
+        </groups>
+
+        <classes>
+            <class name="com.shraddha.automation.tests.NaukriTest"/>
+        </classes>
+    </test>
+
+    ================= SMOKE - FIREFOX =================
+    <test name="Smoke_Firefox">
+        <parameter name="browser" value="firefox"/>
+
+        <groups>
+            <run>
+                <include name="smoke"/>
+            </run>
+        </groups>
+
+        <classes>
+            <class name="com.shraddha.automation.tests.NaukriTest"/>
+        </classes>
+    </test> -->
+
+    <!-- ================= REGRESSION ================= -->
+    <test name="Regression_Chrome">
+        <parameter name="browser" value="chrome"/>
+
+        <groups>
+            <run>
+                <include name="regression"/>
+            </run>
+        </groups>
+
+        <classes>
+            <class name="com.shraddha.automation.tests.NaukriTest"/>
+        </classes>
+    </test>
+
+</suite>

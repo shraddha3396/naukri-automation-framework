@@ -1,0 +1,17 @@
+[
+  {
+    "username": "testuser1@example.com",
+    "password": "password123",
+    "expectedResult": "success"
+  },
+  {
+    "username": "testuser2@example.com",
+    "password": "password456",
+    "expectedResult": "success"
+  },
+  {
+    "username": "invalid@example.com",
+    "password": "wrongpass",
+    "expectedResult": "failure"
+  }
+]

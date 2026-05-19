@@ -1,0 +1,13 @@
+target/
+test-output/
+logs/
+reports/
+screenshots/
+SkippedJobs/
+.vscode/
+.idea/
+.settings/
+bin/
+.DS_Store
+
+src/test/resources/config/config-qa.properties

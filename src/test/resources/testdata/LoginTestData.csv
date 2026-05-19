@@ -1,0 +1,4 @@
+username,password,expectedResult
+testuser1@example.com,password123,success
+testuser2@example.com,password456,success
+invalid@example.com,wrongpass,failure

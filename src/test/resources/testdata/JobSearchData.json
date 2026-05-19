@@ -1,0 +1,22 @@
+{
+  "jobSearches": [
+    {
+      "keyword": "automation",
+      "location": "Pune",
+      "experience": "4",
+      "expectedResults": "true"
+    },
+    {
+      "keyword": "software testing",
+      "location": "Mumbai",
+      "experience": "3",
+      "expectedResults": "true"
+    },
+    {
+      "keyword": "qa engineer",
+      "location": "Bangalore",
+      "experience": "5",
+      "expectedResults": "true"
+    }
+  ]
+}
